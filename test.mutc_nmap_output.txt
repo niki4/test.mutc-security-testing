@@ -1,0 +1,84 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2017-11-09 03:11 EST
+NSE: Loaded 146 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 03:11
+Completed NSE at 03:11, 0.00s elapsed
+Initiating NSE at 03:11
+Completed NSE at 03:11, 0.00s elapsed
+Initiating Ping Scan at 03:11
+Scanning test.mutc.ru (78.108.80.36) [4 ports]
+Completed Ping Scan at 03:11, 0.22s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 03:11
+Completed Parallel DNS resolution of 1 host. at 03:11, 0.02s elapsed
+Initiating SYN Stealth Scan at 03:11
+Scanning test.mutc.ru (78.108.80.36) [1000 ports]
+Discovered open port 587/tcp on 78.108.80.36
+Discovered open port 21/tcp on 78.108.80.36
+Discovered open port 80/tcp on 78.108.80.36
+Discovered open port 993/tcp on 78.108.80.36
+Discovered open port 110/tcp on 78.108.80.36
+Discovered open port 143/tcp on 78.108.80.36
+Discovered open port 25/tcp on 78.108.80.36
+Discovered open port 995/tcp on 78.108.80.36
+Discovered open port 563/tcp on 78.108.80.36
+Discovered open port 465/tcp on 78.108.80.36
+Discovered open port 119/tcp on 78.108.80.36
+Increasing send delay for 78.108.80.36 from 0 to 5 due to 11 out of 29 dropped probes since last increase.
+Completed SYN Stealth Scan at 03:12, 17.79s elapsed (1000 total ports)
+Initiating Service scan at 03:12
+Scanning 11 services on test.mutc.ru (78.108.80.36)
+Service scan Timing: About 27.27% done; ETC: 03:21 (0:06:32 remaining)
+Completed Service scan at 03:14, 153.60s elapsed (11 services on 1 host)
+Initiating OS detection (try #1) against test.mutc.ru (78.108.80.36)
+Initiating Traceroute at 03:14
+Completed Traceroute at 03:14, 0.02s elapsed
+Initiating Parallel DNS resolution of 2 hosts. at 03:14
+Completed Parallel DNS resolution of 2 hosts. at 03:14, 0.04s elapsed
+NSE: Script scanning 78.108.80.36.
+Initiating NSE at 03:14
+Completed NSE at 03:18, 218.81s elapsed
+Initiating NSE at 03:18
+Completed NSE at 03:18, 1.01s elapsed
+Nmap scan report for test.mutc.ru (78.108.80.36)
+Host is up (0.00060s latency).
+rDNS record for 78.108.80.36: web16.majordomo.ru
+Not shown: 989 filtered ports
+PORT    STATE SERVICE     VERSION
+21/tcp  open  tcpwrapped
+25/tcp  open  smtp?
+|_smtp-commands: Couldn't establish connection on port 25
+80/tcp  open  tcpwrapped
+110/tcp open  pop3?
+119/tcp open  nntp?
+143/tcp open  imap?
+465/tcp open  smtps?
+|_smtp-commands: Couldn't establish connection on port 465
+563/tcp open  snews?
+587/tcp open  submission?
+|_smtp-commands: Couldn't establish connection on port 587
+993/tcp open  imaps?
+995/tcp open  pop3s?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge
+Running: Oracle Virtualbox
+OS CPE: cpe:/o:oracle:virtualbox
+OS details: Oracle Virtualbox
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=17 (Good luck!)
+IP ID Sequence Generation: Incremental
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.17 ms 10.0.2.2
+2   0.12 ms web16.majordomo.ru (78.108.80.36)
+
+NSE: Script Post-scanning.
+Initiating NSE at 03:18
+Completed NSE at 03:18, 0.00s elapsed
+Initiating NSE at 03:18
+Completed NSE at 03:18, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 393.96 seconds
+           Raw packets sent: 3047 (136.408KB) | Rcvd: 62 (2.608KB)
