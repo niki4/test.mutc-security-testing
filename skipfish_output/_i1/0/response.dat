@@ -1,0 +1,68 @@
+HTTP/1.1 200 Partial Content
+Server: nginx
+Date: Wed, 08 Nov 2017 20:12:02 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1185
+Connection: keep-alive
+Cache-Control: no-cache
+Pragma: no-cache
+Vary: Host,Accept-Encoding
+Content-Encoding: gzip
+Content-Range: bytes 0-1184/1185
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title>
+        
+        Registartion of a new user
+        
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+        div.content {
+            width: 440px;
+            padding: 10px;
+            background-color: greenyellow;
+            border: 1px solid #93d928;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+        }
+
+        table.logo {
+            background: url( "/img/background.png" );
+            background-repeat: no-repeat;
+            width: 402px;
+            height: 285px;
+        }
+
+        span.message {
+            color: green;
+        }
+
+        div.error {
+            width: 440px;
+            padding: 10px;
+            border: 1px solid coral;
+            margin-bottom: 10px;
+            text-align: left;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+<table width="100%" height="100%" border="0">
+    <tr align="center" valign="middle">
+        <td>
+            <table class="logo" border="0">
+                <tr align="center" valign="middle">
+                    <td>
+                        
+                        <div class="content">
+                            
+                            
+                            
+                            <table border="0">
+    <form action="" method="post"

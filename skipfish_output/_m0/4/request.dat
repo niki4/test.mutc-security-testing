@@ -1,0 +1,11 @@
+POST /cgi-bin/bug.pl HTTP/1.1
+Host: test.mutc.ru
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 SF/2.10b
+Range: bytes=0-399999
+Referer: http://test.mutc.ru/
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 121
+
+action=register_do&login=skipfish&email=skipfish@example.com&password=skipfish&password_confirm=skipfish&sex=none&news=on

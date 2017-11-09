@@ -1,0 +1,27 @@
+HTTP/1.1 200 Partial Content
+Server: nginx
+Date: Wed, 08 Nov 2017 20:10:37 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 274
+Connection: keep-alive
+Vary: Host,Accept-Encoding
+Last-Modified: Sun, 24 Apr 2016 17:59:09 GMT
+ETag: "17f-5313ed1220ab6-gzip"
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Range: bytes 0-273/274
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <meta http-equiv="Refresh" content="0;URL=/cgi-bin/bug.pl">
+    <script type="text/javascript" language="JavaScript">
+        document.location.href = '/cgi-bin/bug.pl';
+    </script>
+</head>
+<body>
+<p align="center">
+    To continue please click <a href="/cgi-bin/bug.pl">here</a>
+</p>
+</body>
+</html>
